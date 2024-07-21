@@ -1,3 +1,6 @@
+#ifndef INPUT_SNAPSHOT_HPP
+#define INPUT_SNAPSHOT_HPP
+
 struct InputSnapshot
 {
     bool f_pressed;
@@ -15,3 +18,5 @@ struct InputSnapshot
     double yaw_delta;
     double pitch_delta;
 };
+
+#endif
