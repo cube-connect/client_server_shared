@@ -11,7 +11,7 @@ struct DrawingSnapshot
     std::array<float, 16> camera_to_clip; // projection matrix
 
     /* per object in the scene */
-    std::vector<std::array<float, 16>> local_to_world_matrices; // TODO: put in unique ID to identify object
+    std::array<std::array<float, 16>, 27> local_to_world_matrices; // TODO: put in unique ID to identify object
 };
 
 #endif
