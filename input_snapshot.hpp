@@ -10,6 +10,7 @@ struct InputSnapshot
     bool u_pressed;
     bool d_pressed;
     bool shift_pressed;
+    bool enter_pressed;
 
     bool left_mouse_button_pressed;
     bool right_mouse_button_pressed;
