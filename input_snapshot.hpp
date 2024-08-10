@@ -3,6 +3,8 @@
 
 struct InputSnapshot
 {
+    unsigned int client_id;
+
     bool f_pressed;
     bool b_pressed;
     bool r_pressed;
